@@ -1,0 +1,120 @@
+body{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin:0px;
+}
+.menu{
+  position: fixed;
+  top:0px;
+  height:100px;
+  width:100%;
+  background-color: black;
+  margin-bottom:10px;
+  opacity:0.9;
+
+}
+
+.menu-options{
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top:200px;
+  margin-left:2%;
+  font-size:15px;
+  text-transform: uppercase;
+  letter-spacing: 0.325rem;
+  font-weight: 800;
+  color:#c2c2c2;
+  margin-left:7%;
+}
+
+.options{
+  padding-top:40px;
+  text-align:center;
+  margin-right:4%;
+}
+
+a{
+  text-decoration:none;
+}
+
+.banner-image{
+  height:610px;
+  width:100%;
+}
+
+.top{
+  z-index: 2;
+}
+.banner-title{
+  z-index: 2;
+  color:white;
+  font-size: 80px;
+  margin-top:-300px;
+  text-align: center;
+  padding: 0 0.5em 0.25em 0.5em;
+  border-bottom: solid 2px #ffffff;
+  font-family: "Pacifico", cursive;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.banner-subtitle{
+  text-transform: uppercase;
+  letter-spacing: 0.325rem;
+  font-weight: 400;
+  font-size: 0.8em;
+  padding: 0 1.25em;
+  color:white;
+  text-align: center;
+}
+
+.main{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top:250px;
+  margin-left:2%;
+  text-transform: uppercase;
+  letter-spacing: 0.325rem;
+  font-size: 0.8em;
+  padding: 0 1.25em;
+  text-align: center;
+  line-height: 50px;
+}
+
+.vision{
+  font-weight: bold;
+}
+
+.vision-box{
+  margin-top:20px;
+  border-top:solid 0.5px grey;
+  border-bottom:solid 0.5px grey;
+}
+
+.vision-text{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 0 1.25em;
+  text-align: center;
+  line-height: 30px;
+  margin-top:35px;
+  margin-bottom:35px;
+  padding:30px;
+  border:1px solid black;
+  border-radius:5px;
+}
+
+footer{
+  font-size:15px;
+  margin-top:150px;
+  padding:50px;
+}
+
+.f1{
+  margin-right:20%;
+}
+.f2{
+  font-size: 20px;
+  margin-right: 2%;
+}
+.all{
+  display: inline-block;
+}
