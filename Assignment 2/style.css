@@ -1,33 +1,33 @@
 body{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   margin:0px;
+  overflow-x:hidden;
 }
 .menu{
   position: fixed;
   top:0px;
-  height:100px;
+  height:80px;
   width:100%;
-  background-color: black;
+  background-color: #00000070;
   margin-bottom:10px;
   opacity:0.9;
-
+  z-index: 3;
 }
 
 .menu-options{
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-top:200px;
-  margin-left:2%;
-  font-size:15px;
+  font-size:13px;
   text-transform: uppercase;
   letter-spacing: 0.325rem;
   font-weight: 800;
-  color:#c2c2c2;
-  margin-left:7%;
+  color:#e5e4e4;
+  margin-left: 4%;
 }
 
 .options{
-  padding-top:40px;
+  padding-top:30px;
   text-align:center;
   margin-right:4%;
 }
@@ -37,39 +37,49 @@ a{
 }
 
 .banner-image{
-  height:610px;
+  height:530px;
   width:100%;
 }
 
 .top{
-  z-index: 2;
+  height: 500px;
+  position: fixed;
+  z-index: -5;
+  margin-top:-700px;
 }
+
 .banner-title{
-  z-index: 2;
   color:white;
-  font-size: 80px;
-  margin-top:-300px;
+  font-size: 60px;
+  margin-top: -400px;
   text-align: center;
   padding: 0 0.5em 0.25em 0.5em;
   border-bottom: solid 2px #ffffff;
-  font-family: "Pacifico", cursive;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: none;
   letter-spacing: 0;
+  z-index: -1;
+  z-index: -1;
+  margin-left:27%;
+  position: fixed;
 }
 
 .banner-subtitle{
+  position: fixed;
   text-transform: uppercase;
   letter-spacing: 0.325rem;
   font-weight: 400;
   font-size: 0.8em;
+  margin-top: -280px;
+  color: white;
+  margin-left:35%;
+  z-index: -1;
   padding: 0 1.25em;
-  color:white;
   text-align: center;
 }
 
 .main{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin-top:250px;
   margin-left:2%;
   text-transform: uppercase;
   letter-spacing: 0.325rem;
@@ -79,42 +89,109 @@ a{
   line-height: 50px;
 }
 
-.vision{
+.title{
+  padding-top: 100px;
   font-weight: bold;
+  text-align: center;
 }
 
 .vision-box{
-  margin-top:20px;
-  border-top:solid 0.5px grey;
-  border-bottom:solid 0.5px grey;
+  background-color: #f7f7f7;
+  width: 65%;
+  margin-left: 16%;
+  /* border-top:solid 0.5px grey;
+  border-bottom:solid 0.5px grey; */
 }
 
 .vision-text{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-style: italic;
   font-size: 0.8em;
   padding: 0 1.25em;
   text-align: center;
   line-height: 30px;
-  margin-top:35px;
-  margin-bottom:35px;
-  padding:30px;
-  border:1px solid black;
+  padding:10px;
   border-radius:5px;
+  margin-bottom:50px;
+  color:#4d4747;
+}
+.openq {
+  font-size: 100px;
+      font-family: Pacifico;
+      margin-left: -90%;
+      font-weight: 100;
+      margin-bottom: -80px;
+      opacity: 0.1;
+}
+
+.closeq {
+  font-size: 100px;
+      font-family: Pacifico;
+      margin-left: 20%;
+      font-weight: 100;
+      /* margin-bottom: -80px; */
+      opacity: 0.1;
+      margin-top: -80px;
 }
 
 footer{
-  font-size:15px;
+  text-align:center;
+  width:90%;
+  font-size:90%;
   margin-top:150px;
   padding:50px;
 }
 
 .f1{
-  margin-right:20%;
+  margin-bottom:3%;
+  font-size: 13px;
 }
 .f2{
+  margin-right:3%;
   font-size: 20px;
-  margin-right: 2%;
+  margin-bottom:3%;
+}
+.f2:hover{
+  color:#F4D2CD;
+}
+.f3{
+  font-size: 13px;
 }
 .all{
+  color:black;
+}
+
+.dot{
   display: inline-block;
+  color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.gallery{
+  display:inline;
+}
+
+.imggal{
+  border-radius: 4px;
+  height:200px;
+  width:24%;
+}
+
+.imggal:hover{
+  opacity:0.9;
+}
+.bottom{
+  position:fixed;
+  z-index: -3;
+}
+
+.mainbody{
+  margin-top: 700px;
+  background-color: white;
+}
+
+.circle{
+  font-size: 500px;
+  opacity:0.1;
 }
