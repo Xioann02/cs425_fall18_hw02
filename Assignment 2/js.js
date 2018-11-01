@@ -40,3 +40,17 @@ $(document).ready(function(){
     }
   });
 });
+
+
+
+$("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("html").offset().top},
+        2000);
+});
+
+$("#down").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ttl").offset().top
+    }, 1000);
+});
