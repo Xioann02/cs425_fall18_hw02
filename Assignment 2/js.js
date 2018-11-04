@@ -49,8 +49,24 @@ $("button").click(function() {
         2000);
 });
 
+
+
 $("#down").click(function() {
     $('html, body').animate({
         scrollTop: $("#ttl").offset().top
+    }, 1000);
+});
+
+
+$("button").click(function() {
+    $('html, body').animate({
+        scrollTop: $("html").offset().top
+    }, 1000);
+});
+
+
+$("#up").click(function() {
+    $('html, body').animate({
+        scrollTop: $("html").offset().top
     }, 1000);
 });

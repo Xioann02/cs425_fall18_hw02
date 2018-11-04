@@ -7,21 +7,25 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="point"></div>
 
 <div class="menu">
   <div class="options">
   <a class="menu-options"  href="index.html">HOMEPAGE</a>
   <div class="dot" >.</div>
-  <a class="menu-options"  href="#services">ABOUT</a>
+  <a class="menu-options"  href="about.html">ABOUT</a>
   <div class="dot" >.</div>
   <a class="menu-options"  href="contact.html">CONTACT</a>
   </div>
 </div>
-<div class="banner">
+
+
+<div class="banner" >
+
+  <button class="moveup" id="up" type="button"><i class="arrow up"></i>  </button>
+
 <!-- <img class="banner-image bottom" src="marble-surface-wall-1323712.jpg"> -->
-<img class="banner-image contactimg" src="architecture-art-building-157231.jpg">
-<div class="contacttext">Contact Information</div>
+<img class="contactimg" src="adult-beautiful-black-and-white-681644 (1).jpg">
+<div class="contacttext">INFORMATION</div>
 <div class="info">
 <div ><div class="infotitle in">Address:</div> <div class="infodetails in">Aisxilou 53, Lakatamia</div></div>
 <div ><div class="infotitle in">Working Hours:</div> <div class="infodetails in">Monday - Friday, 9:00 am - 5:00 pm </div></div>
@@ -30,18 +34,29 @@
 </div>
 
 
-<div class="contacttext">Contact Us</div>
+
+
+
+<div class="contacttext"  >CONTACT US</div>
 <form class="contactform" >
-<div><div class=" ">Name/Surname:</div> <input type="text" class='so' placeholder="Property id" name="searchid" id="search"></li></div>
-<div><div class=" ">Email:</div><input type="text" class='so' placeholder="Property id" name="searchid" id="search"></li></div>
-<div><div class=" ">Message subject:</div><input type="text" class='so' placeholder="Property id" name="searchid" id="search"></li></div>
-<div><div class=" ">Text:</div><input type="text" class='so' placeholder="Property id" name="searchid" id="search"></li></div>
+<div><div class="fieldtitle_contact">Name/Surname:</div> <input type="text" class='so' /></div>
+<div><div class="fieldtitle_contact">Email:</div><input type="text" class='so'  /></div>
+<div><div class="fieldtitle_contact">Message subject:</div><input type="text" class='so'/></div>
+<div><div class="fieldtitle_contact">Text:</div><textarea  cols="160" rows="10" ></textarea></div>
+<div class="fieldtitle_contact">Choose a meeting date</div>
+<div style="text-align:left;">
+    <div class="in in_width" style=" margin-left:24%;">
+        <label for="start">DATE</label>
+        <input type="date" id="date"  class="datefield so"value="2018-11-06"  min="2018-11-06" max="2019-12-31" />
+    </div>
+    <div class="in in_width">
+        <label for="time">TIME</label>
+        <input type="time" id="time" class="datefield so" name="time" min="9:00" max="17:00"  />
+    </div>
+    </div>
 
-
+  <button class="submit" name='submit'>Submit</button>
 </form>
-
-
-
 
 
 <footer>
@@ -53,5 +68,8 @@
   <div class="all f1">Copyright © JD Photography 2018</div>
   <a  href="#services"><div class="all f3">Terms & Conditions</div></a>
 </footer>
+
+
 </body>
+<script  src="js2.js"></script>
 </html>

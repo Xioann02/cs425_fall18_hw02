@@ -14,7 +14,7 @@ button:focus {
   top:0px;
   height:80px;
   width:100%;
-  background-color: #00000070;
+  background-color: white;
   margin-bottom:10px;
   opacity:0.9;
   z-index: 3;
@@ -27,17 +27,19 @@ button:focus {
   font-size:13px;
   text-transform: uppercase;
   letter-spacing: 0.325rem;
-  color:#e5e4e4;
-  margin-left: 4%;
+  color:#3c3c3c;
 }
+
+.menu-options:hover{
+  color:black;
+}
+
 .weight{
   font-weight: 800;
 }
 .options{
   padding-top:30px;
   text-align:center;
-  margin-right:2%;
-  margin-left:2%;
 }
 
 a{
@@ -46,30 +48,32 @@ a{
 
 .banner-image{
   height:530px;
-  width:100%;
+  width:90%;
+  margin-top: -615px;
 }
 
 .top{
   height: 500px;
-  position: fixed;
-  z-index: -5;
-  margin-top:-700px;
+      position: fixed;
+      z-index: -5;
+      margin-left: 5%;
 }
 
 .banner-title{
-  color:white;
-  font-size: 60px;
-  margin-top: -400px;
-  text-align: center;
-  padding: 0 0.5em 0.25em 0.5em;
-  border-bottom: solid 2px #ffffff;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: none;
-  letter-spacing: 0;
-  z-index: -1;
-  z-index: -1;
-  margin-left:27%;
-  position: fixed;
+  color: white;
+    font-size: 44px;
+    margin-top: -420px;
+    border-bottom: solid 1px #ffffff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+    letter-spacing: 0;
+    position: fixed;
+    z-index: -1;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.325rem;
 }
 
 .banner-subtitle{
@@ -78,9 +82,9 @@ a{
   letter-spacing: 0.325rem;
   font-weight: 400;
   font-size: 0.8em;
-  margin-top: -280px;
+  margin-top: -310px;
   color: white;
-  margin-left:35%;
+  margin-left:38%;
   z-index: -1;
   padding: 0 1.25em;
   text-align: center;
@@ -97,8 +101,9 @@ a{
 }
 
 .title{
+
   padding-top: 150px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -170,9 +175,9 @@ footer{
 
 .dot{
   display: inline-block;
-  color: white;
-  margin-left: 3%;
-  margin-right: 3%;
+  color: black;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .gallery{
@@ -181,8 +186,9 @@ footer{
 
 .imggal{
   border-radius: 4px;
-  height:200px;
-  width:24%;
+  height: 200px;
+  width: 25%;
+  margin: 1.5%;
 }
 
 .imggal:hover{
@@ -212,14 +218,27 @@ footer{
   background: transparent;
   border: none;
   color: grey;
-  margin-left: 48.8%;
+  bottom:0px;
+  position: fixed;
+  margin-left: 49.5%;
+  z-index: 10;
+}
+
+.moveup_contact{
+  background: transparent;
+  border: none;
+  color: grey;
+  bottom:10px;
+  position: fixed;
+  margin-left: 49.5%;
+  z-index: 999990;
 }
 
 .moveudown{
   background: transparent;
   border: none;
   color: grey;
-  margin-left: 48.8%;
+  margin-left: 49%;
   margin-top:-250px;
   position: fixed;
   z-index: -1;
@@ -252,15 +271,16 @@ footer{
 
   .contactimg{
     height: 500px;
-    z-index: -5;
-    margin-top:-230px;
+  z-index: -5;
+  text-align: center;
+  width: 100%;
   }
 
   .contacttext{
-    margin-left:50px;
-    margin-top:50px;
-    font-size:20px;
-    font-weight:700;
+    text-align: center;
+      margin-top: 100px;
+      font-size: 15px;
+      font-weight: 700;
   }
 
   .in{
@@ -269,11 +289,12 @@ footer{
   }
 
   .info{
-    background-color: grey;
-    width:50%;
-    padding-bottom:30px;
+    background-color: whitesmoke;
+      /* width: 50%; */
+      padding-bottom: 30px;
+      text-align: center;
+      margin-top: 10px;
   }
-  .infodetails{}
     .infotitle{
       margin-left: 50px;
     }
@@ -283,9 +304,103 @@ footer{
       margin-bottom: 20px;
       margin-top: 10px;
       border:none;
-      border-bottom:solid 0.4px black;
+      border: solid 0.5px;
+      padding: 7px;
+      font-size: 13px;
     }
+
 
     .contactform{
       padding:20px;
+      text-align: center;
     }
+
+
+/*calendar*/
+
+    legend {
+        background-color: #000;
+        color: #fff;
+        padding: 3px 6px;
+    }
+
+    .output {
+        font: 1rem 'Fira Sans', sans-serif;
+    }
+
+    input {
+        margin: .4rem;
+    }
+
+    label {
+        display: inline-block;
+        text-align: right;
+        width: 20%;
+    }
+/*time*/
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+
+
+label {
+    display: inline-block;
+    text-align: right;
+    font-size: .8rem;
+    width: 20%;
+}
+
+.hours {
+    font-size: .7em;
+    color: #999;
+}
+
+
+textarea{
+  border: solid 0.5px;
+  padding: 7px;
+  width:50%;
+  font-size: 13px;
+  margin-top:10px;
+}
+
+.fieldtitle_contact{
+  color: #616161;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 24.5%;
+  text-align: left;
+}
+
+.in_width{
+  width:25%;
+}
+
+.datefield{
+  width:96%;
+}
+.submit{
+  color: white;
+  background-color: #515151;
+  border: solid 0.5px black;
+  padding: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px;
+}
+
+.color{
+  color:#404040;
+  font-size:13px;
+}
+
+.white{
+  color: white;
+}
