@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
   $(".reviews").each(function(){
     var This = $(this) ;
     var Nums = This.find(".box").size() ;
@@ -30,6 +31,7 @@ $(document).ready(function(){
       }
 
       This.find(".box").not(".boxAct")
+
       .css("left",Dire) ;
       This.find(".box:eq("+loc+")")
       .animate({'left':'0'},speed)

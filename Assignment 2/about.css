@@ -1,41 +1,7 @@
-
-.profile_title{
-  font-family: Pacifico;
-  margin-top: 130px;
-  margin-left: 52%;
-  color: #000000;
-  font-size: 35px;
-}
-
-.profile-text{
-  text-align: center;
-}
-
-.profile_box{
-  width: 40%;
-  height: 350px;
-  margin-left: 2%;
-  background-color: black;
-  display: inline-block;
-  color: #f1f1f1;
-  font-family: Montserrat;
-  font-weight: 100;
-  font-style: italic;
-  padding-left: 30px;
-  padding-top: 50px;
-  vertical-align: top;
-  padding-right: 30px;
-}
-
-.profile_image{
-  width: 48%;
-  margin-left: 2%;
-  display: inline-block;
-  height: 400px;
-  vertical-align: top;
-  /* margin-bottom: -80px; */
-
-}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
 
 @media (min-width: 1281px) {
@@ -81,7 +47,10 @@
 }
 
 
-
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   .profile_title{
@@ -128,6 +97,51 @@
 
 
 
+
+  @media (min-width: 428px) and (max-width: 1025px) {
+    .profile_title{
+      font-family: Pacifico;
+      margin-top: 130px;
+      margin-left: 52%;
+      color: #000000;
+      font-size: 35px;
+    }
+
+    .profile-text{
+      text-align: center;
+    }
+
+    .profile_image{
+      width: 80%;
+      margin-left: 10%;
+      height: 600px;
+      margin-bottom:50px;
+    }
+
+    .profile_box{
+      background-color: black;
+      color: #ffffff;
+      font-family: Montserrat;
+      font-weight: 100;
+      float: unset;
+      font-style: italic;
+      border: solid 1px black;
+      padding:25px;
+      margin-left:10%;
+      margin-right:10%;
+    }
+
+
+    }
+
+
+
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
   @media (min-width: 320px) and (max-width: 480px) {
 
     .profile_title{
@@ -166,7 +180,10 @@
 
 
   /* Tablets(portait mode) */
-/*
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
 
   @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -200,4 +217,4 @@
       padding:25px;
       margin-left:10%;
       margin-right:10%; }
-    } */
+    }
