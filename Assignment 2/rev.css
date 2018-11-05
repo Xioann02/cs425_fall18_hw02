@@ -2,15 +2,18 @@ body{
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .reviews {
-  width: 70%;
+  width: 30%;
       height: 210px;
+      margin: 10px;
       overflow: hidden;
       background-color: #fff;
-      margin: 50px auto;
+      margin: 1%;
+      display: inline-block;
       position: relative;
       margin-top: 20px;
       background-color: #F7F7F7;
-      padding-bottom:60px;
+      padding-bottom: 90px;
+      text-align: center;
     }
 .box {
   width : 100%;
@@ -55,7 +58,6 @@ png images background
     font-size: 17px;
     color: #2a2a2a;
     margin-top: 37px;
-    margin-left: 47.5%;
 }
 .cnt {
   position : absolute ;
@@ -77,5 +79,4 @@ png images background
 }
 
 .stars{
-  margin-left: 46%;
   margin-bottom: -60px;}
