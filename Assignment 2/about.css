@@ -1,6 +1,6 @@
 /*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+  Desktops
+  1281px to higher resolution desktops
 */
 
 
@@ -39,7 +39,6 @@
     display: inline-block;
     height: 400px;
     vertical-align: top;
-    /* margin-bottom: -80px; */
 
   }
 
@@ -48,8 +47,8 @@
 
 
 /*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
+Laptops, Desktops
+ 1025px to 1280px
 */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
@@ -86,7 +85,6 @@
       display: inline-block;
       height: 400px;
       vertical-align: top;
-      /* margin-bottom: -80px; */
 
     }
 
@@ -138,8 +136,8 @@
 
 
   /*
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
+  Smartphones Mobiles (Portrait)
+  320px to 479px
   */
 
   @media (min-width: 320px) and (max-width: 480px) {
@@ -179,10 +177,9 @@
   }
 
 
-  /* Tablets(portait mode) */
   /*
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
+     Tablets, Ipads (portrait)
+     768px to 1024px
   */
 
   @media (min-width: 768px) and (max-width: 1024px) {

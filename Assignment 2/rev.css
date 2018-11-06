@@ -4,9 +4,7 @@ body{
 .reviews {
   width: 30%;
       height: 210px;
-      margin: 10px;
       overflow: hidden;
-      background-color: #fff;
       margin: 1%;
       display: inline-block;
       position: relative;
@@ -20,30 +18,6 @@ body{
   max-height: 100%;
   position : absolute ;
 }
-.boxAct {
-  left : 0 ;
-}
-.box img {
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  float: left;
-  margin: 25px;
-}
-/*== Removal Start
-png images background
-==*/
-.box:nth-of-type(1) img {
-  background : #12aedb ;
-}
-.box:nth-of-type(2) img {
-  background : #db4646 ;
-}
-.box:nth-of-type(3) img {
-  background : #96c465 ;
-}
-/*== Removal End==*/
-
 .box p {
   width: 90%;
   margin: 25px 0 10px 0;
@@ -51,7 +25,7 @@ png images background
   color: black;
   line-height: 1.2em;
   margin-top: 80px;
-  padding-left: 30px;
+  padding-left: 3%;
 }
 .box h1 {
   width: 200px;
@@ -74,9 +48,5 @@ png images background
   cursor : pointer ;
   transition : 0.3s ease-in
 }
-.ContActive {
-  background-color : #bbb !important ;
-}
-
 .stars{
   margin-bottom: -60px;}
